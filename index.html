@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2 id="wn">What now ?</h2>
+    <button id="sq-btn">Show questions</button>
+    <div class="wrapper-wrapper" id="big-wrapper-el">
+        <button id="close-button">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18.3002 5.70997C17.9102 5.31997 17.2802 5.31997 16.8902 5.70997L12.0002 10.59L7.11022 5.69997C6.72022 5.30997 6.09021 5.30997 5.70021 5.69997C5.31021 6.08997 5.31021 6.71997 5.70021 7.10997L10.5902 12L5.70021 16.89C5.31021 17.28 5.31021 17.91 5.70021 18.3C6.09021 18.69 6.72022 18.69 7.11022 18.3L12.0002 13.41L16.8902 18.3C17.2802 18.69 17.9102 18.69 18.3002 18.3C18.6902 17.91 18.6902 17.28 18.3002 16.89L13.4102 12L18.3002 7.10997C18.6802 6.72997 18.6802 6.08997 18.3002 5.70997V5.70997Z" fill="#1B1B1B"/>
+            </svg>
+        </button>
+        <div id="wrapper-el">
+            <div class="model">
+                <div class="question" id="first">
+                    <h1>What is the capital of China ?</h1>
+                </div>
+                <div class="choices">
+                    <button class="choice bad" value="bad">Hong Kong</button>
+                    <button class="choice good" value="good">Beijing</button>
+                    <button class="choice bad" value="bad">Shanghai</button>
+                </div>
+                <p>1 / 5</p>
+            </div>
+            <div class="model" id="second">
+                <div class="question">
+                    <h1>How many state is there in the USA ?</h1>
+                </div>
+                <div class="choices">
+                    <button class="choice good" value="good">50</button>
+                    <button class="choice bad" value="bad">49</button>
+                    <button class="choice bad" value="bad">48</button>
+                </div>
+                <p>2 / 5</p>
+            </div>
+            <div class="model" id="third">
+                <div class="question">
+                    <h1>What is the world's most populated country ?</h1>
+                </div>
+                <div class="choices">
+                    <button class="choice bad" value="bad">Russia</button>
+                    <button class="choice bad" value="bad">India</button>
+                    <button class="choice good" value="good">China</button>
+                </div>
+                <p>3 / 5</p>
+            </div>
+            <div class="model" id="fourth">
+                <div class="question">
+                    <h1>Who won the 2014 world cup final ?</h1>
+                </div>
+                <div class="choices">
+                    <button class="choice bad" value="bad">Brazil</button>
+                    <button class="choice bad" value="bad">Argentina</button>
+                    <button class="choice good" value="good">Germany</button>
+                </div>
+                <p>4 / 5</p>
+            </div>
+            <div class="model" id="fifth">
+                <div class="question">
+                    <h1>What is the most spoken language in the world ?</h1>
+                </div>
+                <div class="choices">
+                    <button class="choice good" value="good">English</button>
+                    <button class="choice bad" value="bad">Mandarin</button>
+                    <button class="choice bad" value="bad">Hindi</button>
+                </div>
+                <p>5 / 5</p>
+            </div>
+            <div class="model" id="res">
+                <h1 id="result"></h1>
+                <button id="go-back"></button>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
